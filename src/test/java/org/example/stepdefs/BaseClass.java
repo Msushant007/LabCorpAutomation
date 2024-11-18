@@ -15,7 +15,6 @@ public class BaseClass {
     public static ReadConfig readConfig=new ReadConfig();
     //generate unique email id
 
-
     protected static String   token;
     private static   Response response;
 
