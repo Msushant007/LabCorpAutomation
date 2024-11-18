@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.example.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.334 s <<< FAILURE! - in org.example.runner.TestRunner
+Job Position Search and Selection.Search and view a Any Job position  Time elapsed: 0.268 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "org.example.stepdefs.CareersStepDef.driver" is null
+	at org.example.stepdefs.CareersStepDef.i_am_on_the_job_search_page(CareersStepDef.java:16)
+	at ✽.I am on the job search page(file:///Users/sushant/Documents/AutomationTestPrac/BDD-Selenium-2/src/test/java/org/example/features/Careers.feature:8)
+
+Labcorp Careers Page Navigation.User navigates to Careers page from Labcorp home page  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "utils.ReadConfig.getBaseUrl()" because "org.example.stepdefs.HomeStepDef.readConfig" is null
+	at org.example.stepdefs.HomeStepDef.the_user_opens_a_browser_and_goes_to_labcorp_home_page(HomeStepDef.java:35)
+	at ✽.the user opens a browser and goes to Labcorp home page.(file:///Users/sushant/Documents/AutomationTestPrac/BDD-Selenium-2/src/test/java/org/example/features/Home.feature:5)
+
