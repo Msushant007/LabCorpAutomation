@@ -1,0 +1,4 @@
+#! /bin/bash
+
+cd ~/BDD-Selenium-2
+mvn clean install
